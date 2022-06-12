@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "4c83f51f-0488-4879-ad43-328c9c0e6b86",
+		"name": "Post-0612-hw7",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20778936"
+	},
+	"item": [
+		{
+			"name": "上傳圖片",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyYTQ4MDAzMTYyMjQ0MzVlM2MzNjk4ZiIsImlhdCI6MTY1NDk0Nzg0MywiZXhwIjoxNjU3NTM5ODQzfQ.aBmf0DeYggyYTUDvOgOjKr4nd6Sz9LkNBk6L-rZm4S4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "",
+							"type": "file",
+							"src": "/Users/yuchiehlin/Pictures/1269652.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://evening-savannah-45372.herokuapp.com/upload",
+					"protocol": "https",
+					"host": [
+						"evening-savannah-45372",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"upload"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
